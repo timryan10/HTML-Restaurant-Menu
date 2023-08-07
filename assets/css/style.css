@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%
 }
 
 nav ul {
@@ -72,6 +73,7 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
@@ -83,4 +85,14 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+.locations{
+    list-style-type: none;
+}
+footer{
+    display: inline-block;
+    text-align:center;
+    width: 100%;
+    height: 75px;
+    background-color: white;
 }
